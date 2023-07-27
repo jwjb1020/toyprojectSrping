@@ -1,6 +1,7 @@
 package com.toyproject.domain;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -18,6 +19,7 @@ import lombok.ToString;
 @Entity
 public class Festival {
     @Id
+    
     private int festival_id;
     private int contact_id;
     private int address_id;

@@ -27,8 +27,8 @@ public class Address {
     private String doro;
     private String sangse;
     private int zip_no;
-    private float latitude;
-    private float longitude;
+    private Double latitude;
+    private Double longitude;
     private float x;
     private float y;
 }
